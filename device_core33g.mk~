@@ -25,12 +25,12 @@ PRODUCT_COPY_FILES += \
 	device/samsung/core33g/root/init.sc8830_ss.rc:root/init.sc8830_ss.rc \
 	device/samsung/core33g/root/init.sc8830.usb.rc:root/init.sc8830.usb.rc \
 	device/samsung/core33g/root/init.trace.rc:root/init.trace.rc \
-	device/samsung/core33g/root/init.core33g.rc:root/init.core33g.rc \
+	device/samsung/core33g/root/init.kanas3g.rc:root/init.kanas3g.rc \
 	device/samsung/core33g/root/init.sc8830.rc:root/init.sc8830.rc \
 	device/samsung/core33g/root/ueventd.sc8830.rc:root/ueventd.sc8830.rc \
 	device/samsung/core33g/root/fstab.core33g:root/fstab.core33g \
 	device/samsung/core33g/root/init.board.rc:root/init.board.rc \
-	device/samsung/core33g/root/init.core33g_base.rc:root/init.core33g_base.rc \
+	device/samsung/core33g/root/init.kanas3g_base.rc:root/init.kanas3g_base.rc \
 	device/samsung/core33g/root/property_contexts:root/property_contexts \
 	device/samsung/core33g/root/init.usb.rc:root/init.usb.rc
 
