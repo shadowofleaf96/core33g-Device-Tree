@@ -140,3 +140,6 @@ BOARD_SEPOLICY_DIRS += \
 
 BOARD_SEPOLICY_UNION += \
     file_contexts \
+    
+# Add PrebuiltWebviewchromium for cut down the speed of build
+PRODUCT_PREBUILT_WEBVIEWCHROMIUM := yes
