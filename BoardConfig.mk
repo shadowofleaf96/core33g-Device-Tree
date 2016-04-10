@@ -1,18 +1,5 @@
 USE_CAMERA_STUB := true
 
-# inherit from the proprietary version
--include vendor/samsung/core33g/BoardConfigVendor.mk
-
-
-# Audio
-AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
-AUDIO_FEATURE_SAMSUNG_DUAL_SIM := true
-
-# Radio
-SIM_COUNT := 2
-TARGET_GLOBAL_CFLAGS += -DANDROID_MULTI_SIM
-TARGET_GLOBAL_CPPFLAGS += -DANDROID_MULTI_SIM
-
 TARGET_NO_BOOTLOADER := true
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
@@ -141,6 +128,3 @@ BOARD_SEPOLICY_DIRS += \
 
 BOARD_SEPOLICY_UNION += \
     file_contexts \
-    
-# Add PrebuiltWebviewchromium for cut down the speed of build
-PRODUCT_PREBUILT_WEBVIEWCHROMIUM := yes
